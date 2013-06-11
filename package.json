@@ -1,0 +1,18 @@
+{
+    "name": "rate-limit",
+    "version": "0.1.0",
+    "dependencies": {},
+    "devDependencies": {
+        "nodeunit": "~0.8.0"
+    },
+    "scripts": {
+        "test": "nodeunit tests/*.tests.js"
+    },
+    "keywords": [
+        "rate",
+        "limit",
+        "limiter",
+        "queue"
+    ],
+    "main": "./lib/index.js"
+}
