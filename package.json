@@ -14,5 +14,9 @@
         "limiter",
         "queue"
     ],
-    "main": "./lib/index.js"
+    "main": "./lib/index.js",
+    "licenses": [{
+        "type": "BSD",
+        "url": "http://opensource.org/licenses/BSD-2-Clause"
+    }]
 }
