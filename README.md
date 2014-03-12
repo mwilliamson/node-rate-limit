@@ -16,7 +16,7 @@ For instance:
 
 ```javascript
 
-var rateLimit = require("rateLimit");
+var rateLimit = require("rate-limit");
 
 function getNow() {
     return new Date().getTime();
