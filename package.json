@@ -1,6 +1,12 @@
 {
     "name": "rate-limit",
     "version": "0.1.1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mwilliamson/node-rate-limit"
+    },
+    "bugs": "https://github.com/mwilliamson/node-rate-limit/issues",
+    "homepage": "https://github.com/mwilliamson/node-rate-limit",
     "dependencies": {},
     "devDependencies": {
         "nodeunit": "~0.8.0"
