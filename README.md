@@ -28,15 +28,21 @@ function printElapsedTime() {
     console.log(getNow() - startTime);
 }
 
+function printText(text) {
+    console.log(text);
+}
+
 var queue = rateLimit.createQueue({interval: 100});
 
 queue.add(printElapsedTime);
 queue.add(printElapsedTime);
 queue.add(printElapsedTime);
+queue.add(printText, 'hello world');
 
 
 // Sample output:
 // 0
 // 105
 // 206
+// hello world
 ```
